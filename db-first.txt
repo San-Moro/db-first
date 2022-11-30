@@ -1,0 +1,31 @@
+*Modellare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario.*
+
+AUTO USATE
+
+id INT - PRIMARY_KEY(NOTNULL, UNIQUE) - AUTO_INCREMENT
+usata - TINYINT - NOTNULL
+prezzo - DECIMAL(7, 2) - NOTNULL
+marca - VARCHAR(20) - NULL
+modello - VARCHAR(20) - NULL
+versione - VARCHAR(50) - NULL
+km_percorsi - MEDIUMINT - NULL
+carburante - VARCHAR(30) - NULL
+classe_emissioni -VARCHAR(10) - NULL
+tipo_di_cambio - VARCHAR(10) - NULL
+immatricolazione - YEAR - NULL
+scadenza_revisione - DATE - NULL
+cilindrata_cm3 - SMALLINT - NULL
+numero_porte - VARCHAR(10) - NULL
+numero_posti - VARCHAR(10) - NULL
+climatizzatore - VARCHAR(20) - NULL
+colore_esterno - VARCHAR(30) - NULL
+colore_interni - VARCHAR(30) - NULL
+descrizione - TEXT - NULL
+voto - FLOAT(2, 1) - NULL- --> 0.0 A 5.0
+servosterzo - TINYINT - NULL
+ABS - TINYINT - NULL 
+gancio_traino - TINYINT - NULL
+bluetooth - TINYINT - NULL
+navigatore_satellitare - TINYINT - NULL
+trazione_integrale - TINYINT - NULL
+cerchi_in_lega - TINYINT - NULL
